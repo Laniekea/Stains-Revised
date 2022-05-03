@@ -1,0 +1,13 @@
+@import '../../styles/variable.scss';
+
+.footer {
+  background-color: $cloud-grey;
+  color: $midnight-blue;
+  font-size: smaller;
+  bottom: 0;
+
+  .footer-container {
+    display: flex;
+    justify-content: center;
+  }
+}
