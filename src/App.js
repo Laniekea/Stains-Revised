@@ -3,10 +3,13 @@ import { NavHorizontal, NavVertical } from './components';
 
 function App() {
   return (
-    <>
+    <div className="App">
       <NavHorizontal />
-      <NavVertical />
-    </>
+      <div className="base-layout">
+        <NavVertical />
+        <h2>This is content</h2>
+      </div>
+    </div>
   );
 }
 

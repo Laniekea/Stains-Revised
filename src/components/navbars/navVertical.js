@@ -1,11 +1,24 @@
 import React from 'react';
+import './navVertical.scss';
 
 function NavVertical() {
-  const text = 'vert';
+  const items = [
+    'Users',
+    'Applications',
+    'Audit Log',
+    'Permission',
+    'Tech Stacks',
+    'Employment Types',
+    'Roles',
+  ];
 
   return (
     <div className="nav-vertical">
-      <p>{text}</p>
+      <div className="nav-vertical-container">
+        {items.map((item) => (
+          <p>{item}</p>
+        ))}
+      </div>
     </div>
   );
 }

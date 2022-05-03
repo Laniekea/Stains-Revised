@@ -2,11 +2,13 @@
 
 .nav-horizontal {
   background-color: $teal;
+  color: $white;
+  font-size: large;
 
   .nav-horizontal-container {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin: 0px 20px;
+    margin: 0px 25px;
   }
 }
