@@ -1,0 +1,12 @@
+@import "../../styles/variable.scss";
+
+.nav-horizontal {
+  background-color: $teal;
+
+  .nav-horizontal-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 0px 20px;
+  }
+}

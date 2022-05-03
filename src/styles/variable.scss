@@ -1,0 +1,25 @@
+//font-family
+$font-family: "Museo Sans",
+"Segoe UI",
+"Roboto",
+Helvetica,
+Arial,
+sans-serif;
+
+// Font weight
+$light: 300;
+$normal: 400;
+$semi-bold: 500;
+$bold: 600;
+$extra-bold: 700;
+
+/* Font size */
+$page-header-font: toEm(30);
+
+/* Colors */
+$teal: #00A19C;
+$teal-light: #009E8E;
+$dark-grey: #29323B;
+$black: #000;
+$white: #fff;
+$error: #FF5247;

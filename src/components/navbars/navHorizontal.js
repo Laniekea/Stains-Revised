@@ -1,13 +1,17 @@
-import React from "react";
+import React from 'react';
+import './navHorizontal.scss';
 
-const NavHorizontal = () => {
-  const text = "this is horizontal bar";
-  
+function NavHorizontal() {
+  const text = 'Stains';
+
   return (
     <div className="nav-horizontal">
-      <p>{text}</p>
+      <div className="nav-horizontal-container">
+        <a href="/">{text}</a>
+        <p>Profile</p>
+      </div>
     </div>
-  )
-};
+  );
+}
 
 export default NavHorizontal;
