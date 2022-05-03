@@ -28,12 +28,14 @@
                   "error",
                   {
                     "semi": true,
-                    "trailingComma": "all",
-                    "singleQuote": true,
-                    "printWidth": 80,
                     "tabWidth": 2,
+                    "printWidth": 100,
+                    "singleQuote": true,
+                    "trailingComma": "all",
+                    "jsxBracketSameLine": true,
                     "endOfLine": "auto"
                   }
+                  
                 ],
                 "react/react-in-jsx-scope": "off",
                 "object-curly-newline": "off",

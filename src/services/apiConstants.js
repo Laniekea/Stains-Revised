@@ -1,7 +1,9 @@
-const API = {
-  techstacks: {
-    baseUrl: '/techstacks',
+module.exports = {
+  API: {
+    techstacks: 'techstacks',
   },
 };
 
-export { API };
+// shared constants between React.js and Node API
+// module.export = { API };
+// export { API };
