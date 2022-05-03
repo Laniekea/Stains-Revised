@@ -5,7 +5,8 @@
     },
     "extends": [
         "plugin:react/recommended",
-        "airbnb"
+        "airbnb",
+        "plugin:prettire/recommended"
     ],
     "parserOptions": {
         "ecmaFeatures": {
@@ -34,9 +35,9 @@
                     "endOfLine": "auto"
                   }
                 ],
-                "@typescript-eslint/no-var-requires": "off",
+                "react/react-in-jsx-scope": "off",
                 "object-curly-newline": "off",
-                "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+                "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
             }
         }
     ]
