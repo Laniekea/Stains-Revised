@@ -27,7 +27,6 @@ function Table() {
             <p>{item.database}</p>
           </>
         ))}
-      {/* <h1>dumbo</h1> */}
     </div>
   );
 }
