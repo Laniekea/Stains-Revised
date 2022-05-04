@@ -1,5 +1,5 @@
+import { NavHorizontal, NavVertical, Footer, Table } from './components';
 import './App.scss';
-import { NavHorizontal, NavVertical, Footer } from './components';
 
 function App() {
   return (
@@ -7,7 +7,8 @@ function App() {
       <NavHorizontal />
       <div className="base-layout">
         <NavVertical />
-        <h2>This is content</h2>
+        {/* <h2></h2> */}
+        <Table />
       </div>
       <Footer />
     </div>

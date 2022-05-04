@@ -1,1 +1,1 @@
-export { default as HttpRequest } from './httpRequestClient';
+export { default as HttpRequest } from './httpRequest';

@@ -4,9 +4,11 @@ const cors = require('cors');
 const { API } = require('../services/apiConstants');
 require('dotenv').config();
 
-const { API_PORT } = process.env;
-const API_URL = `/api`;
-const stacks = [{ frontend: 'React.js', backend: 'Node.js', database: 'MySQL' }];
+const { API_URL, API_PORT } = process.env;
+const stacks = [
+  { frontend: 'React.js', backend: 'Node.js', database: 'MySQL' },
+  { frontend: 'Angular', backend: '.NET', database: 'MSSQL' },
+];
 
 const app = express();
 app.use(bodyParser.json());
